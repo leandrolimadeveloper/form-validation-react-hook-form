@@ -58,7 +58,7 @@ export function Form() {
 
                     <div className='flex flex-col gap-2 text-white mb-4'>
                         <label htmlFor="confirmPassword">Confirm password</label>
-                        <input type='password' className='p-2 rounded-sm text-zinc-700' name='confirmPassword' placeholder='Confirm' {...register('confirmPassword')} />
+                        <input type='password' className='p-2 rounded-sm text-zinc-700' name='confirmPassword' placeholder='Confirm your password' {...register('confirmPassword')} />
                         <p className='text-red-400'>{errors.confirmPassword?.message}</p>
                     </div>
 
