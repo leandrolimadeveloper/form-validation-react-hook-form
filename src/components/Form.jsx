@@ -40,7 +40,7 @@ export function Form() {
 
                     <div className='flex flex-col gap-2 text-white mb-4'>
                         <label htmlFor="email">Email</label>
-                        <input type='email' className='p-2 rounded-sm text-zinc-700' name='email' placeholder='Email' {...register('email')} />
+                        <input type='email' className='p-2 rounded-sm text-zinc-700' name='email' placeholder='Insert your email' {...register('email')} />
                         <p className='text-red-400'>{errors.email?.message}</p>
                     </div>
 
