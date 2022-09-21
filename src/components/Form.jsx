@@ -27,7 +27,7 @@ export function Form() {
                 <h1 className="text-4xl font-bold text-white my-6">Sign up</h1>
                 <form onSubmit={handleSubmit(submitForm)} className="w-[400px]">
                     <div className='flex flex-col gap-2 text-white mb-4'>
-                        <label htmlFor="firstName">Name</label>
+                        <label htmlFor="firstName">First name</label>
                         <input type='text' className='p-2 rounded-sm text-zinc-700' name='firstName' placeholder='First name...' {...register('firstName')} />
                         <p className='text-red-400'>{errors.firstName?.message}</p>
                     </div>
