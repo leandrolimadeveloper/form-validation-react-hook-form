@@ -7,7 +7,7 @@ For CSS customization was used Tailwind CSS framerwork.
 
 ![validation](https://user-images.githubusercontent.com/76854209/191598462-3738db61-fdf8-461d-b7d0-54e3e8c4fc49.jpg)
 
-Deploy: https://form-validation-react-hook-form-yup-site.netlify.app/
+Deploy: <a href="https://form-validation-react-hook-form-yup-site.netlify.app/" target="_blank">https://form-validation-react-hook-form-yup-site.netlify.app/</a>
 
 ## Run
 To run locally: 
